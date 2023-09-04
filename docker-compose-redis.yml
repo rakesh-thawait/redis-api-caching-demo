@@ -1,0 +1,7 @@
+version: '2'
+services:
+  localredis:
+    image: "redislabs/redisearch:latest"
+    container_name: localredis
+    ports:
+      - "6379:6379"
